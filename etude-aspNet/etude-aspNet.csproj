@@ -7,4 +7,11 @@
     <RootNamespace>etude_aspNet</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
 </Project>
