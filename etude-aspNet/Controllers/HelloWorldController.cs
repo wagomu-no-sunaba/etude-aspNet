@@ -4,9 +4,18 @@ namespace etude_aspNet.Controllers
 {
     public class HelloWorldController : Controller
     {
-        public IActionResult Index()
+        //
+        // GET: /HelloWorld/
+        public string Index()
         {
-            return View();
+            return "This is my default action...";
+        }
+
+        //
+        // GET: /HelloWorld/Welcome/
+        public string Welcome()
+        {
+            return "This is the Welcome action method...";
         }
     }
 }
